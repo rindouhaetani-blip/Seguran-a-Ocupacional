@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma profissional de segurança ocupacional com recursos educativos e ferramentas de prevenção de acidentes">
+    <meta name="keywords" content="segurança, trabalho, prevenção, acidentes, saúde ocupacional">
+    <title>Segurança Ocupacional Pro - Proteção e Prevenção Inteligente</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header e Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>SafeWork Pro</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#guias">Guias</a></li>
+                    <li><a href="#epi">EPIs</a></li>
+                    <li><a href="#prevencao">Prevenção</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Segurança Ocupacional Inteligente</h1>
+            <p>Proteja seus colaboradores com as melhores práticas, ferramentas e conhecimentos em segurança no trabalho</p>
+            <div class="hero-buttons">
+                <button class="cta-button primary" onclick="document.getElementById('guias').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-book-open"></i> Explorar Recursos
+                </button>
+                <button class="cta-button secondary" onclick="document.getElementById('contato').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-envelope"></i> Fale Conosco
+                </button>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>1000+</h3>
+                <p>Recursos</p>
+            </div>
+            <div class="stat">
+                <h3>50+</h3>
+                <p>Guias</p>
+            </div>
+            <div class="stat">
+                <h3>24/7</h3>
+                <p>Disponível</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Guias Section -->
+            <section id="guias" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-book"></i> Guias de Segurança</h2>
+                    <p>Conheça as normas, procedimentos e melhores práticas de segurança ocupacional</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <h3>Normas Regulamentadoras</h3>
+                        <p>Conheça as principais NRs que regem a segurança no trabalho no Brasil</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> NR-1 até NR-37</li>
+                            <li><i class="fas fa-check"></i> Interpretações práticas</li>
+                            <li><i class="fas fa-check"></i> Atualizações legais</li>
+                        </ul>
+                        <a href="pages/normas.html" class="card-link">Explorar <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h3>Procedimentos de Emergência</h3>
+                        <p>Protocolos de ação rápida para situações de risco e emergência</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Planos de evacuação</li>
+                            <li><i class="fas fa-check"></i> Resposta a emergências</li>
+                            <li><i class="fas fa-check"></i> Comunicação de riscos</li>
+                        </ul>
+                        <a href="pages/emergencia.html" class="card-link">Explorar <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Primeiros Socorros</h3>
+                        <p>Técnicas essenciais para salvar vidas em situações de emergência</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> RCP e desfibrilação</li>
+                            <li><i class="fas fa-check"></i> Tratamento de ferimentos</li>
+                            <li><i class="fas fa-check"></i> Rotinas certificadas</li>
+                        </ul>
+                        <a href="pages/primeiros-socorros.html" class="card-link">Explorar <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EPIs Section -->
+            <section id="epi" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-vest"></i> Equipamentos de Proteção Individual</h2>
+                    <p>Guia completo sobre EPIs, suas aplicações e manutenção</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="card epi-card">
+                        <div class="card-icon">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <h3>Proteção de Cabeça</h3>
+                        <p>Capacetes, óculos de proteção, protetor auricular e facial</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Seleção adequada</li>
+                            <li><i class="fas fa-check"></i> Normas de certificação</li>
+                            <li><i class="fas fa-check"></i> Manutenção periódica</li>
+                        </ul>
+                        <a href="pages/epi-cabeca.html" class="card-link">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="card epi-card">
+                        <div class="card-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Proteção de Corpo</h3>
+                        <p>Aventais, coletes, roupas especializadas e EPIs de torso</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Tipos de cobertura</li>
+                            <li><i class="fas fa-check"></i> Materiais resistentes</li>
+                            <li><i class="fas fa-check"></i> Conformidade técnica</li>
+                        </ul>
+                        <a href="pages/epi-corpo.html" class="card-link">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="card epi-card">
+                        <div class="card-icon">
+                            <i class="fas fa-hands"></i>
+                        </div>
+                        <h3>Proteção de Membros</h3>
+                        <p>Luvas especializadas, braçadeiras, perneiras e proteção específica</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Materiais e espessuras</li>
+                            <li><i class="fas fa-check"></i> Compatibilidade química</li>
+                            <li><i class="fas fa-check"></i> Testes de resistência</li>
+                        </ul>
+                        <a href="pages/epi-membros.html" class="card-link">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="card epi-card">
+                        <div class="card-icon">
+                            <i class="fas fa-shoe-prints"></i>
+                        </div>
+                        <h3>Proteção de Pés</h3>
+                        <p>Calçados de segurança, protetores de pé e sistemas de ancoragem</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Classificação de risco</li>
+                            <li><i class="fas fa-check"></i> Normas internacionais</li>
+                            <li><i class="fas fa-check"></i> Conforto e durabilidade</li>
+                        </ul>
+                        <a href="pages/epi-pes.html" class="card-link">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Prevenção Section -->
+            <section id="prevencao" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-shield-virus"></i> Prevenção de Acidentes</h2>
+                    <p>Estratégias comprovadas para manter ambientes seguros</p>
+                </div>
+                <div class="prevention-grid">
+                    <div class="prevention-item">
+                        <div class="prevention-number">01</div>
+                        <div class="prevention-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Identificação de Riscos</h3>
+                        <p>Aprenda a reconhecer potenciais riscos em qualquer ambiente de trabalho através de avaliação sistemática</p>
+                    </div>
+                    <div class="prevention-item">
+                        <div class="prevention-number">02</div>
+                        <div class="prevention-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Boas Práticas Diárias</h3>
+                        <p>Hábitos simples mas essenciais que podem salvar vidas todos os dias na empresa</p>
+                    </div>
+                    <div class="prevention-item">
+                        <div class="prevention-number">03</div>
+                        <div class="prevention-icon">
+                            <i class="fas fa-megaphone"></i>
+                        </div>
+                        <h3>Comunicação de Riscos</h3>
+                        <p>Reporte eficaz de riscos e participação ativa em programas de segurança coletiva</p>
+                    </div>
+                    <div class="prevention-item">
+                        <div class="prevention-number">04</div>
+                        <div class="prevention-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Treinamentos Regulares</h3>
+                        <p>Importância crucial de programas contínuos de capacitação em segurança ocupacional</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Equipe Section -->
+            <section id="equipe" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-users"></i> Equipe de Desenvolvimento</h2>
+                    <p>Profissionais dedicados à segurança e bem-estar ocupacional</p>
+                </div>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="img1.jpg" alt="Gabriel Lima">
+                        </div>
+                        <h3>Gabriel Lima</h3>
+                        <p class="member-role">Desenvolvedor Full Stack</p>
+                        <p class="member-bio">Especialista em desenvolvimento web e integração de sistemas de segurança</p>
+                        <div class="member-social">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="img2.jpg" alt="Dayllon Kauan">
+                        </div>
+                        <h3>Dayllon Kauan</h3>
+                        <p class="member-role">Engenheiro de Segurança</p>
+                        <p class="member-bio">Consultor em normas regulamentadoras e implementação de sistemas SESMT</p>
+                        <div class="member-social">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="img3.jpg" alt="Adryan Kaue">
+                        </div>
+                        <h3>Adryan Kaue</h3>
+                        <p class="member-role">Designer UX/UI</p>
+                        <p class="member-bio">Especialista em experiência do usuário e interfaces acessíveis</p>
+                        <div class="member-social">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contato" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-paper-plane"></i> Entre em Contato</h2>
+                    <p>Tire suas dúvidas e converse com nossa equipe</p>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Brasil</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contato@safeworkpro.com.br</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>+55 (11) 9999-9999</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder="Seu Nome Completo" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Seu Email" required>
+                            </div>
+                            <div class="form-group">
+                                <select required>
+                                    <option value="">Selecione o Assunto</option>
+                                    <option value="duvida">Dúvida</option>
+                                    <option value="treinamento">Treinamento</option>
+                                    <option value="consultoria">Consultoria</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SafeWork Pro</h4>
+                    <p>Plataforma líder em segurança ocupacional</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#guias">Guias</a></li>
+                        <li><a href="#epi">EPIs</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SafeWork Pro. Todos os direitos reservados.</p>
+                <p>Desenvolvido por Gabriel Lima, Dayllon Kauan e Adryan Kaue</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
